@@ -18,7 +18,7 @@ body {
 .imagem { background-size: cover; background-position: center; height: 100vh; }
 .galeria img { width: 100%; height: auto; object-fit: cover; }
 .text-video { color: var(--background-color); margin-bottom: 40px; }
-.text-video h1 { padding-left: 100px; font-family: 'Gotham Bold', sans-serif; }
+.text-video h1 { padding-left: 100px; font-family: 'Nexa Bold', sans-serif; }
 .video-section{ background-color: var(--primary-color); width: 100%; }
 .img-section{
     width: 100%;

@@ -17,3 +17,8 @@
     font-family: 'Nexa Bold';
     src: url('../fonts/Nexa\ Bold.otf');
 }
+
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('../fonts/MinionPro-Regular.otf');
+}
