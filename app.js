@@ -13,3 +13,10 @@ function changeImage(imageSrc, imageId, button) {
     buttons.forEach(btn => btn.classList.remove('active'));
     button.classList.add('active');
 }
+
+function openFullscreenModal(imageSrc) {
+    const fullscreenImage = document.getElementById('fullscreenImage');
+    fullscreenImage.src = imageSrc;
+    const fullscreenModal = new bootstrap.Modal(document.getElementById('fullscreenModal'));
+    fullscreenModal.show();
+}
