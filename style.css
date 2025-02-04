@@ -1,29 +1,45 @@
-@import url('galeria.css');
-
+@import url('estilo/galeria.css');
+@import url('estilo/home.css');
+@import url('estilo/fonts.css');
 :root{
-    --primary-color: #a1602c;
-    --primary-color-opacity: #a1612c4d;
-    --secondary-color: #5499b3;
-    --background-color2: #eae2d8;
+    --primary-color: #c36b4e;
+    --primary-color-opacity: #c36b4e4f;
+    --secondary-color: #6497b1;
+    --terciary-color: #9bc4b8;
+    --background-color2: #e4d8c6;
     --background-color: #fffcf5;
+    --primary-color2: #7d3d29;
 }
-
-body { scroll-behavior: smooth; background-color: var(--background-color); }
+body { 
+    scroll-behavior: smooth; 
+    background-color: var(--background-color); 
+    font-family: 'Gotham Book', sans-serif;
+}
 .imagem { background-size: cover; background-position: center; height: 100vh; }
 .galeria img { width: 100%; height: auto; object-fit: cover; }
-.text-video { color: var(--background-color); font-family: Arial, Helvetica, sans-serif; margin-bottom: 40px; }
-.text-video h1 { padding-left: 100px; }
+.text-video { color: var(--background-color); margin-bottom: 40px; }
+.text-video h1 { padding-left: 100px; font-family: 'Gotham Bold', sans-serif; }
 .video-section{ background-color: var(--primary-color); width: 100%; }
-
-
+.img-section{
+    width: 100%;
+    height: auto;
+}
 /* Navbar */
 .navbar { background-color: var(--primary-color-opacity); }
-.navbar-brand, .nav-link { color: var(--background-color) !important; }
-.nav-link:hover { color: var(--secondary-color) !important; }
+.navbar-brand, .nav-link { color: var(--background-color2) !important; }
+.nav-link:hover { color: var(--primary-color) !important; }
 
 .footer { 
     background-color: var(--background-color2); 
     padding: 20px 0; 
     text-align: center;
     height: 100vh; 
+}
+
+.footer-logo{
+    width: 10%;
+    height: auto;
+}
+#formulario2 h2{
+    color: var(--primary-color);
 }

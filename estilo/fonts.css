@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham-Book.otf');
+}
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Nexa Heavy';
+    src: url('../fonts/Nexa\ Heavy.otf');
+}
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('../fonts/Nexa\ Bold.otf');
+}
