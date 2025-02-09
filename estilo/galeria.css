@@ -44,7 +44,7 @@
     color: var(--background-color);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
-    font-family: 'Gotham Book';
+    font-family: 'New Order';
 }
 
 .carousel-item:hover .carousel-caption {

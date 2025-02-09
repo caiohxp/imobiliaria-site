@@ -22,3 +22,8 @@
     font-family: 'Minion Pro';
     src: url('../fonts/MinionPro-Regular.otf');
 }
+
+@font-face {
+    font-family: 'New Order';
+    src: url('../fonts/New_Order_Light.otf');
+}

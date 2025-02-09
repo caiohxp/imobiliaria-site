@@ -10,7 +10,7 @@
 <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#"><img class="w-25" src="assets/MEDITERRANE.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -19,6 +19,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Sinta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#localizacao">Localização</a></li>
                     <li class="nav-item"><a class="nav-link" href="#galeria-terreo">Térreo</a></li>
                     <li class="nav-item"><a class="nav-link" href="#galeria-pav3">Lazer</a></li>
                     <li class="nav-item"><a class="nav-link" href="#galeria-rooftop">Rooftops</a></li>
@@ -30,35 +31,37 @@
     
     <!-- Seção 1: Home -->
     <section id="home" class="home-section d-flex flex-column justify-content-center align-items-center">
-        <div>
-            <img src="home-img-clean.jpg" alt="Logo" class="home-img">
+        <div class="home-container d-flex flex-column justify-content-center align-items-center">
+            <img src="assets/home-img-clean.jpg" alt="Logo" class="home-img">
             <div class="home-text w-25 text-center">
                 <img src="assets/MEDITERRANE.png" class="home-logo w-100" alt="">
                 <p>Seu paraíso particu<b>(lar)</b></p>
-                <p> <br> <br><b>2</b> e <b>3</b> Suítes - <b>76</b> a <b>130</b>m² <br> P e n t h o u s e - <b>194</b>m² <br> <b>3 Rooftops</b> <br> <b>No coração do Jardim Goiás</b></p>
             </div>
-            <div id="formulario" class="container py-5 text-center mt-5 form-container">
+            <div id="formulario" class="container text-center form-container">
                 <h2>Entre em contato</h2>
                 <form class="row gy-4 mx-auto">
-                    <div class="col-md-6">
+                    <div class="form-control-container col-md-6">
                         <input type="text" class="form-control" placeholder="Nome" required>
                     </div>
-                    <div class="col-md-6">
+                    <div class="form-control-container col-md-6">
                         <input type="tel" class="form-control" placeholder="Telefone" required>
                     </div>
-                    <div class="col-md-12">
+                    <div class="form-control-container col-md-12">
                         <input type="email" class="form-control" placeholder="E-mail" required>
                     </div>
-                    <button type="submit" class="btn btn-primary w-25">Enviar</button>
+                    <button type="submit" class="btn btn-primary form-control-container">Enviar</button>
                 </form>
             </div>
+        </div>
+        <div class="home-description d-flex align-items-center justify-content-center text-center">
+            <div> <b>2</b> e <b>3</b> Suítes - <b>76</b> a <b>130</b>m² // P e n t h o u s e - <b>194</b>m² // <b>3 Rooftops</b> // <b>No coração do Jardim Goiás</b></div>
         </div>
     </section>
     
     <!-- Seção 2: Vídeo do Empreendimento -->
     <section id="video" class="video-section p-5">
         <div class="container d-flex flex-column align-items-center">
-            <div class="text-video">
+            <div class="text-video text-center">
                 <h1>conheça o empreendimento</h1>
             </div>
             <div class="ratio ratio-16x9">
